@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UFT-8">
+    <title>hw06_register</title>
+    <style type="text/css"> 
+        a { text-decoration:none }
+        a:link {
+          color : black;
+        }
+        a:visited {
+          color : black;
+        }
+        a:hover {
+          color : #9D9D9D;
+        }
+        a:active {
+          color : #D7D7D7;
+        }
+        div.a{
+          text-align: right; margin-right:50px;
+        }
+      </style> 
+      <style>
+       @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+        
+        .t-font {
+          font-family: 'Gilda Display', serif;
+          font-weight: 100;
+          line-height: 120%;
+          font-size: 20px;
+        }
+  
+        .g-font {
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 400;
+          line-height: 120%
+        }
+        
+        h1 {
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 400;
+          line-height: 120%
+        }
+
+        body {
+          background-size: cover;
+         }
+
+        #head {
+          background-color: white;
+        }
+  
+        #logo {
+          height: 100px;
+          width: 220px;
+        }
+  
+        #menu {
+          text-align: left;
+          padding-top: 30px;
+          margin-left: -250px;
+          }
+  
+        #menu li {
+            display: inline;
+        }
+        
+        #menu2 {
+          text-align: right;
+          padding-top: 30px;
+          margin-right: 70px;
+          }
+  
+        #menu2 li {
+            display: inline;
+        }
+  
+        .item {
+          margin: 0 10px 0 10px;
+        }
+  
+        #grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+        #input {
+            text-align: center;
+        }
+      </style>
+  </head>
+  <body background="" width=50% height=50%>
+    <div id="grid">
+      <div id="logo">
+        <a href="./hw06.html"><img src="./img/hw06logo.png" width=100% height=90%></a>
+      </div>
+      <div id="menu" class="g-font">
+        <li class="item"><a href="./intro.html">Introduce</a></li>
+        <li> </li>
+        <li class="item"><a href="./product.html">Product</a></li>
+        <li> </li>
+        <li class="item"><a href="./visit.html">Visit</a></li>
+        <li> </li>
+        <li class="item"><a href="./notice.html">Notice</a></li>
+        </div>
+        <div id="menu2" class="g-font">
+        <li class="item"><a href="./register.html">Register</a></li>
+        <li> </li>
+        <li class="item"><a href="login.html">Login</a></li>
+        <li> </li>
+        <li class="item"><a href="./cart.html">Cart</a></li>
+        <li> </li>
+      </div>
+    </div>
+    <div id="input">
+        <h1>Register</h1>
+        <form>
+            <p class="g-font">Name: <input type="text" name="name" size="15" placeholder="이름" required></p>
+            <p class="g-font">Email: <input type="text" name="Email" size="15" placeholder="이메일" required></p>
+            <br>
+            <p class="g-font">아이디: <input type="text" name="ID" size="15" placeholder="아이디" required></p>
+            <p class="g-font">비밀번호: <input type="text" name="psw" size="15" placeholder="비밀번호" required></P>
+            <p class="g-font">비밀번호 확인: <input type="text" name="psw" size="15" placeholder="비밀번호 확인" required></P>
+            <p></p>
+            <input type="submit" value="회원가입">
+            <input type="reset" value="다시작성">
+            <br><br><br>
+            <p style="font-size: 70%;" class="g-font">* 테스트 페이지이므로, 위 회원가입은 제대로 작동하지 않습니다.</p>
+        </form>
+    </div>
+</body>
