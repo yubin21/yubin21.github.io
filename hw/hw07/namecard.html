@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UFT-8">
+  <title>hw06_namecard</title>
+  <!-- <link rel="stylesheet" type="css/type" href="default.css"> -->
+  <link rel="stylesheet" type="text/css" href="click.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Orelega+One&family=Noto+Sans+KR:wght@100;300;400&display=swap');
+    .t-font {
+      font-family: 'Gilda Display', serif;
+      font-weight: 100;
+      line-height: 120%;
+    }
+
+    .g-font {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 400;
+      line-height: 120%
+    }
+
+    #head {
+      background-color: white;
+    }
+
+    #logo {
+      height: 100px;
+      width: 220px;
+    }
+
+    #menu {
+      text-align: left;
+      padding-top: 30px;
+      margin-left: -250px;
+    }
+
+    #menu li {
+      display: inline;
+    }
+
+    #menu2 {
+      text-align: right;
+      padding-top: 30px;
+      margin-right: 70px;
+    }
+
+    #menu2 li {
+      display: inline;
+    }
+
+    .item {
+      margin: 0 10px 0 10px;
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    body {
+      background-size: cover;
+    }
+
+    main {
+      width: 100%;
+    }
+
+    #page {
+      background-color: gray;
+    }
+
+    #we {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 300;
+      font-size: 100px;
+    }
+
+    #design {
+      margin: 2px;
+      border: solid 3px #cc2a2a;
+    }
+
+    #input {
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Gilda Display', serif;
+      font-weight: 100;
+      line-height: 30%
+    }
+
+    .menu-font {
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 600;
+          line-height: 200%;
+          font-size: 27px;
+        }
+
+        .menu-font2 {
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 400;
+          line-height: 200%;
+          font-size: 24px;
+          margin-top: -25px;
+        }
+
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #grid2 {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          margin: 30px 0 0 0;
+    }
+        
+    #input {
+        text-align: center;
+    }
+
+    #box {
+        width: 100%;
+        margin: 10px;
+        text-align: left;
+        margin-left: 300px;
+    }
+
+    #box2 {
+        text-align: right;
+        padding-top: 20px;
+        margin-right: 200px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div id="logo">
+        <a href="./hw07.html"><img src="./img/hw06logo.png" width=100% height=90%></a>
+      </div>
+      <div id="menu" class="g-font">
+        <li class="item"><a href="./intro.html">Introduce</a></li>
+        <li> </li>
+        <li class="item"><a href="./product.html">Product</a></li>
+        <li> </li>
+        <li class="item"><a href="./visit.html">Visit</a></li>
+        <li> </li>
+        <li class="item"><a href="./notice.html">Notice</a></li>
+      </div>
+      <div id="menu2" class="g-font">
+        <li class="item"><a href="./register.html">Register</a></li>
+        <li> </li>
+        <li class="item"><a href="./login.html">Login</a></li>
+        <li> </li>
+        <li class="item"><a href="./cart.html">Cart</a></li>
+        <li> </li>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div id="grid2">
+        <div id="box"><img src="./img/main2.jpg" width= 600; height= 400;></div>
+        <div id="box2"><br><br><br><br><br><br>
+            <p class="menu-font">Name Card</p>
+            <p class="menu-font2">1500 KRW</p>
+            <a href="./login.html"><img src="./img/buy.jpg"width= 200; height= auto;></a>
+            <br>
+            <a href="./cart.html"><img src="./img/cart.jpg"width= 200; height= auto;></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>
